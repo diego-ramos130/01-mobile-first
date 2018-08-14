@@ -1,0 +1,22 @@
+.heading-group-h1 {
+  float: left;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.heading-group-h1 h1 {
+  margin-bottom: .5em;
+}
+
+.icon-menu {
+  float: right;
+  font-size: 2em;
+}
+
+.clearfix {
+  overflow: hidden;
+}
+
+nav ul {
+  display: none;
+}
