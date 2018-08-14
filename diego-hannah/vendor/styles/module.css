@@ -4,8 +4,21 @@
   line-height: 1.5;
 }
 
-.heading-group-h1 h1 {
-  margin-bottom: .5em;
+#articles address,
+#articles time {
+  display: inline;
+}
+
+#articles header div {
+  color: #4d4d4d;
+  margin: 1em auto 1em 0;
+}
+
+#articles header div a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4d4d4d;
+  font-style:italic;
 }
 
 .icon-menu {
@@ -19,4 +32,18 @@
 
 nav ul {
   display: none;
+}
+
+.article-body img {
+  display: block;
+  margin: 0 auto;
+}
+
+#about li {
+list-style: disc inside;
+}
+
+footer {
+  margin: 1em auto;
+  text-align:center;
 }
