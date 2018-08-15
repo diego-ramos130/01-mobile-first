@@ -23,21 +23,33 @@
 
 .icon-menu {
   float: right;
-  font-size: 2em;
+  font-size: 45px;
+  color: black;
 }
 
-.icon-menu:hover + ul {
-  display:block;
+nav ul {
+  display: none;
+  clear: both;
+  transition: 1s ease;
+}
+
+nav input {
+  display: none; 
+}
+
+nav label {
+  height: 45px;
+  width: 45px;
+}
+
+nav input:checked ~ ul {
+  display: block;
 }
 
 .clearfix {
   overflow: hidden;
 }
 
-nav ul {
-  display: none;
-  clear: both;
-}
 nav ul li {
   padding: .5em;
   font-size: 1.5em;
